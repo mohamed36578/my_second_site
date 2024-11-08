@@ -33,6 +33,8 @@ document.querySelectorAll('.flip-button').forEach(button => {
 
         const plusButton = parentDiv.querySelector('.plusButton');
         plusButton.textContent = 'add to cart';
+        const orderButton = parentDiv.querySelector('.orderButton');
+        orderButton.style.display = 'none';
 
         // Show the "Minus" button if the count is greater than 1
         const moinsButton = parentDiv.querySelector('.moinsButton');
@@ -71,6 +73,8 @@ plusButtons.forEach(button => {
         count++;
         counter.textContent = count; // Update counter display
         counter_total.textContent = count * count_price;
+        const orderButton = parentDiv.querySelector('.orderButton');
+        orderButton.style.display = 'inline';
         details.textContent = 'pizza_margeritta' + ' ' + parseInt(counter.textContent) + ' pcs' + ' total: '+ counter_total.textContent ;
         const plusButton = parentDiv.querySelector('.plusButton');
         plusButton.textContent = '+';

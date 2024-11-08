@@ -1,7 +1,7 @@
         /* Add some custom styling */
         body {
             font-family: Arial, sans-serif;
-            background-color: red;
+            background-color: white;
             
         }
         .section {
@@ -61,7 +61,7 @@
 
         /* Flip when class 'flipped' is added */
         .card.flipped {
-            transform: rotateY(180deg);
+            transform: rotateY(180deg); 
         }
 
         /* Front and back styles */
@@ -84,12 +84,43 @@
         /* Back of the card */
         .card-back {
             transform: rotateY(180deg);
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #f8f9fa;
+            background-color: rgba(131, 126, 123, 0.5);
+            color: black;
             border: white solid 2px;
             
             
         }
         #done_link{
-            color: white;
+            color: black;
         }
+ 
+
+        small{
+            font-size: 10px;
+        }
+        a{
+            text-align: center;
+            color:white ;
+        }
+        .btn{
+            height: 80%;
+            width: max-content;
+            
+            text-align: center;
+            border: black solid 2px;
+            color: black;
+            
+            border-radius: 15px;
+            
+        }
+
+   
+        button:focus, .btn:focus {
+            outline: none;
+            box-shadow: none;
+            border: black 2px solid;
+            
+        }
+        
+        
+    
