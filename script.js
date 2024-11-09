@@ -68,6 +68,7 @@ plusButtons.forEach(button => {
         const counter_price = parentDiv.querySelector('.counter_price');
         const counter_total = parentDiv.querySelector('.counter_total');
         const details = parentDiv.querySelector('.details');
+        //const name = parentDiv.querySelector('.name');
         let count = parseInt(counter.textContent);
         let count_price = parseInt(counter_price.textContent);
         count++;
@@ -75,7 +76,8 @@ plusButtons.forEach(button => {
         counter_total.textContent = count * count_price;
         const orderButton = parentDiv.querySelector('.orderButton');
         orderButton.style.display = 'inline';
-        details.textContent = 'pizza_margeritta' + ' ' + parseInt(counter.textContent) + ' pcs' + ' total: '+ counter_total.textContent ;
+        const name = parentDiv.querySelector('.name');
+        details.textContent = name.textContent + ' ' + parseInt(counter.textContent) + ' pcs' + ' total: '+ counter_total.textContent ;
         const plusButton = parentDiv.querySelector('.plusButton');
         plusButton.textContent = '+';
 
@@ -136,7 +138,7 @@ cardBacks.forEach((cardBack, index) => {
     }
 });
 
-allCountersParagraph.textContent = `Total Count: ${totalCounter}`;
+allCountersParagraph.textContent = `Total : ${totalCounter}`;
 
 });
 
