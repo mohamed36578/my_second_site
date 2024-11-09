@@ -1,7 +1,8 @@
         /* Add some custom styling */
         body {
             font-family: Arial, sans-serif;
-            background-color: white;
+            background-color: rgb(0, 0, 0);
+            color: white;
             
         }
         .section {
@@ -14,29 +15,37 @@
         /* Customize section colors */
         #home { background-color: orange; 
             background: url('img/x.png') no-repeat center center;
+            /*  */
             background-size: cover;
             color: rgba(102, 20, 20, 0.863);
             text-align: center;
-            padding: 100px 0;}
+            padding: 100px 0;
+            border-radius: 15px;
+        }
         #beef { background-color: orange; 
             background: url('img/pizza_1.jpg') no-repeat center center;
-            background-size: cover;}
+            background-size: cover;
+            border-radius: 15px;}
         #chicken { background-color: orange; 
             background: url('img/chicken.jpg') no-repeat center center;
-            background-size: cover;}
+            background-size: cover;
+            border-radius: 15px;}
         #burger { background-color: orange; 
             background: url('img/burgeur.jpg') no-repeat center center;
-            background-size: cover;}
+            background-size: cover;
+            border-radius: 15px;}
         #drinks { background-color: orange; 
             background: url('img/drinks.jpg') no-repeat center center;
-            background-size: cover;}
+            background-size: cover;
+            border-radius: 15px;}
 
 
         h2{
-            background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+            background-color: black;
             color: #ececec;
-            width: 100px;
+            width: 100%;
             border-radius: 10px;
+            font-size: 20px;
 
 
         }
@@ -120,6 +129,13 @@
             box-shadow: none;
             border: black 2px solid;
             
+        }
+        .navbar{
+            background-color:black;
+            
+        }
+        footer{
+            color: white;
         }
         
         
