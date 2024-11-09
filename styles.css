@@ -12,22 +12,22 @@
             text-align: center;
         }
         /* Customize section colors */
-        #home { background-color: #f8f9fa; 
+        #home { background-color: orange; 
             background: url('img/x.png') no-repeat center center;
             background-size: cover;
             color: rgba(102, 20, 20, 0.863);
             text-align: center;
             padding: 100px 0;}
-        #beef { background-color: #ececec; 
+        #beef { background-color: orange; 
             background: url('img/pizza_1.jpg') no-repeat center center;
             background-size: cover;}
-        #chicken { background-color: #f8f9fa; 
+        #chicken { background-color: orange; 
             background: url('img/chicken.jpg') no-repeat center center;
             background-size: cover;}
-        #burger { background-color: #ececec; 
+        #burger { background-color: orange; 
             background: url('img/burgeur.jpg') no-repeat center center;
             background-size: cover;}
-        #drinks { background-color: #f8f9fa; 
+        #drinks { background-color: orange; 
             background: url('img/drinks.jpg') no-repeat center center;
             background-size: cover;}
 
