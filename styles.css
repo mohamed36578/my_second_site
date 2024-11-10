@@ -1,6 +1,8 @@
         /* Add some custom styling */
         body {
-            font-family: fantasy;
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-style: unset;
             background-color: white;
             color: black;
             
@@ -43,7 +45,7 @@
             width: 100%;
             border-radius: 10px;
             font-size: 20px;
-            font-family: fantasy;
+            
 
 
         }
@@ -63,7 +65,7 @@
             border: none;
             background-color: rgba(95, 94, 94, 0); /* 50% opacity */
             border-radius: 10px;
-            color: rgb(243, 200, 11);
+            color: white;
         }
 
         /* Flip when class 'flipped' is added */
@@ -82,9 +84,9 @@
             justify-content: center;
             flex-direction: column;
             border-radius: 10px;
-            background-color: rgba(65, 63, 63, 0.938);
+            background-color: rgba(65, 63, 63, 0.5);
             border: black solid 2px;
-            font-family: fantasy;
+            
             
         
         }
@@ -92,7 +94,7 @@
         /* Back of the card */
         .card-back {
             transform: rotateY(180deg);
-            color: rgb(243, 200, 11);
+            color: white;
             border: black solid 2px;
             
             
@@ -103,7 +105,7 @@
  
 
         small{
-            font-size: 10px;
+            font-size: 15px;
         }
         a{
             text-align: center;
@@ -127,7 +129,7 @@
             outline: none;
             box-shadow: none;
             border: black 2px solid;
-            background-color: gray;
+            background-color: rgb(243, 200, 11);
             
         }
         .orderButton, .moinsButton {
@@ -139,6 +141,9 @@
         }
         footer{
             color: black;
+        }
+        .flip-button{
+            height: 50px;
         }
         
         
