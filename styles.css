@@ -85,7 +85,7 @@
             flex-direction: column;
             border-radius: 10px;
             background-color: rgba(65, 63, 63, 0.5);
-            border: black solid 2px;
+            border: white solid 2px;
             
             
         
@@ -95,12 +95,12 @@
         .card-back {
             transform: rotateY(180deg);
             color: white;
-            border: black solid 2px;
+            
             
             
         }
         #done_link{
-            color: black;
+            color: white;
         }
  
 
@@ -116,11 +116,12 @@
             width: max-content;
             
             text-align: center;
-            border: black solid 2px;
-            color: black;
+            border: 2px white solid;
+            color: white;
             
             border-radius: 15px;
             background-color: rgb(243, 200, 11);
+            
             
         }
 
@@ -128,11 +129,15 @@
         button:focus, .btn:focus {
             outline: none;
             box-shadow: none;
-            border: black 2px solid;
+            border: white 2px solid;
             background-color: rgb(243, 200, 11);
             
         }
         .orderButton, .moinsButton {
+            background-color: red;
+        }
+
+        .orderButton:focus, .moinsButton:focus {
             background-color: red;
         }
         .navbar{
@@ -144,6 +149,8 @@
         }
         .flip-button{
             height: 50px;
+            border: 2px white solid;
+            color: white;
         }
         
         
