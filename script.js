@@ -138,7 +138,7 @@ cardBacks.forEach((cardBack, index) => {
     }
 });
 
-allCountersParagraph.textContent = `Total : ${totalCounter}`;
+allCountersParagraph.textContent = `Total: ${totalCounter}`;
 
 });
 
@@ -178,7 +178,7 @@ console.log(nonEmptyDetailsContents); // Output the array for verification
     const allCounters = document.getElementById('allCounters');
 
     // Check if paragraph's text content is not empty
-    if (allCounters.textContent.trim() !== 'Total Count: 0' || paragraph.textContent.trim() === 'Your order is empty') {
+    if (allCounters.textContent.trim() !== 'Total: 0' || paragraph.textContent.trim() === 'Your order is empty') {
         // Prepare the text to share
         const textToShare = paragraph.textContent;
         
